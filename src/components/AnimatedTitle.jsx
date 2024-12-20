@@ -5,7 +5,7 @@ const AnimatedTitle = ({ title, containerClass }) => {
     const containerRef = useRef(null);
 
     useEffect(() => {
-        const ctx = gsap.context
+        // const ctx = gsap.context
     }, [])
 
   return (
