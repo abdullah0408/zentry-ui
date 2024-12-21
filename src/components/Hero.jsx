@@ -102,6 +102,7 @@ const Hero = () => {
               <video
                 ref={videoRef}
                 src={getVideoSrc((currentIndex % totalVideos) + 1)}
+                autoPlay
                 loop
                 muted
                 id="current-video"
@@ -114,6 +115,7 @@ const Hero = () => {
           <video
             ref={nextVdRef}
             src={getVideoSrc(currentIndex)}
+            autoPlay
             loop
             muted
             id="next-video"
