@@ -1,14 +1,38 @@
-import React from 'react'
-import Hero from './components/Hero'
-import About from './components/About'
+import React from "react";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import Features from "./components/Features";
+import Story from "./components/Story";
+import Contact from "./components/contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <main className='relative min-h-screen w-screen overflow-x-hidden'>
-      <Hero />
-      <About />
-    </main>
-  )
-}
+    // Main container for the app with full height and width
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      {/* Navbar component */}
+      <Navbar />
 
-export default App
+      {/* Hero section, typically the first thing users see */}
+      <Hero />
+
+      {/* About section */}
+      <About />
+
+      {/* Features section */}
+      <Features />
+
+      {/* Story section */}
+      <Story />
+
+      {/* Contact section */}
+      <Contact />
+
+      {/* Footer component */}
+      <Footer />
+    </main>
+  );
+};
+
+export default App;
