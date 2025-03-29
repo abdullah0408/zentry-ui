@@ -104,3 +104,5 @@ npm run build
 
 **Experience the future of gaming interfaces** 🕹️  
 Run `npm run dev` and visit `http://localhost:5173` to explore the interactive demo!
+
+🌐 **Live Demo**: [Zentry UI](https://zentry-ui.notlocalhost.fun/)
